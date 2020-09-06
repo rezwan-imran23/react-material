@@ -36,16 +36,16 @@ function App() {
          <PostDetail/>
        </Route>
 
+       
+
+       <Route exact path = "/comment/:postDetail">
+         <Comments/>
+       </Route> 
+       
+       
        <Route exact path = "/">
          <Home/>
        </Route>
-
-       <Route exact path = "/comment">
-
-         <Comments/>
-       
-       </Route>
-      
 
 
        <Route path = "*">
