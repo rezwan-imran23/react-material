@@ -30,6 +30,7 @@ const PostDetail = () => {
           <div className="detail">
 
             <h1 style={{color:"yellow"}}>Hot News</h1>
+            <h3 style={{color:"#FFE0B2"}}>{postDetails.title}</h3>
             <p>{postDetails.body}</p>
 
          </div>
